@@ -1,0 +1,10 @@
+# easygrid
+
+A template project using gridgain and clojure.
+
+Install gridgain on all nodes on the grid. Copy clojure.jar and clojure-contrib.jar into
+GRIDGAIN_HOME/libs/ext/. The rest of the application clojure code need not be
+copied into the individual gridgain instances and can be picked up gridgains's P2P classloading.
+
+Kick of the jobs with 
+$lein run easygrid.launcher start
